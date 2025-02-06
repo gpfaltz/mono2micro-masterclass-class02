@@ -44,5 +44,5 @@ curl localhost:8080/hotel/findById?id=1
 curl localhost:8080/hotel/findByTravelOrderId?travelOrderId=1
 
 Find Flight
-curl localhost:8080/hotel/findById?id=1
+curl localhost:8080/flight/findById?id=1
 curl localhost:8080/flight/findByTravelOrderId?travelOrderId=1
