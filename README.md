@@ -36,13 +36,16 @@ curl localhost:8080/travelorder
 List Flights:
 curl localhost:8080/flight
 
-List Hotels
+List Hotels:
 curl localhost:8080/hotel
 
-Find Hotel
+Find Travel Order:
+curl localhost:8080/travelorder/findById?id=1
+
+Find Hotel:
 curl localhost:8080/hotel/findById?id=1
 curl localhost:8080/hotel/findByTravelOrderId?travelOrderId=1
 
-Find Flight
+Find Flight:
 curl localhost:8080/flight/findById?id=1
 curl localhost:8080/flight/findByTravelOrderId?travelOrderId=1
